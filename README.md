@@ -17,7 +17,7 @@ Existing options:
 
 -o output: a directory where the resulted parts will be stored (./ is the default value)
 
-*you should only use one of the next three options.
+*you should only use one of the next three options.*
 
 -n number: number of parts.
 
@@ -31,11 +31,15 @@ The template file format should be in the following format. For more info, check
 A template file usually looks like this:
 
 [00:00:00] Chap01
+
 [01:20:30] Chap02
+
 [02:44:28] Chap03
+
 [03:05:52] Chap04
+
 [04:27:52] Chap05
 
 @todo
-*frendlier options
-*support for other formats
+*frendlier options*
+*support for other formats*
