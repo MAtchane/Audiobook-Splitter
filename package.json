@@ -17,6 +17,7 @@
   "dependencies": {
     "colors": "^1.1.2",
     "mp3-duration": "^1.0.10",
+    "sanitize-filename": "^1.6.1",
     "yargs": "^9.0.1"
   },
   "repository": {
