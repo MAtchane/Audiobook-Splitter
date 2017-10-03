@@ -28,6 +28,8 @@ Existing options:
 The template file format should be in the following format. For more info, checkout ffmpeg's duration syntax page.
 
 [([hh:]mm:ss[.ms...])] Chapter_name
+
+
 A template file usually looks like this:
 
 [00:00:00] Chap01
@@ -40,6 +42,10 @@ A template file usually looks like this:
 
 [04:27:52] Chap05
 
+
+---------------------------------------------------
 @todo
+
 *frendlier options*
+
 *support for other formats*
