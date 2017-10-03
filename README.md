@@ -13,19 +13,17 @@ Type **node app.js -h** to list all options and see an usage example.
 
 ## Existing options:
 
--i input: the mp3 file path, Required.
+- -i input: the mp3 file path, Required.
 
--o output: a directory where the resulted parts will be stored (./ is the default value)
+- -o output: a directory where the resulted parts will be stored (./ is the default value)
 
 *you should only use one of the next three options.*
 
--n number: number of parts.
+- -n number: number of parts.
 
--l lenght: the desired lenght for each of the parts.
+- -l lenght: the desired lenght for each of the parts.
 
--t template:
-
-### The template file format should be in the following format. For more info, checkout ffmpeg's duration syntax page.
+- -t template: **The template file format should be in the following format. For more info, checkout ffmpeg's duration syntax page.**
 
 [([hh:]mm:ss[.ms...])] Chapter_name
 
