@@ -57,3 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
+# VS and VS Code
+.vs/
+.vscode/
+
+# folders used for testing
+inputs/
+outputs/
+

@@ -1,0 +1,26 @@
+{
+  "name": "audiobooksplitter",
+  "version": "0.0.1",
+  "description": "A simple node app aimed to split long audiobooks to ease navigation on old devices (nokia s40...)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "audiobook;",
+    "splitter;",
+    "old",
+    "phones;"
+  ],
+  "author": "Mosab",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "mp3-duration": "^1.0.10",
+    "yargs": "^9.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mosb93/Audiobook-Splitter.git"
+  }
+}
