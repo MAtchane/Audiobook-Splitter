@@ -3,15 +3,15 @@ A simple node app aimed to split long audiobooks to ease navigation on old devic
 
 This project was built with a lighter version of the existing mp3-split module, if you're interested in more features make sure to check it out https://github.com/skiptirengu/mp3-split
 
-Requirements
+## Requirements
 
-ffmpeg is what makes the heavy lifting so make sure you have it installed and added to your path.
+ffmpeg is what does the heavy lifting so make sure you have it installed and added to your path.
 
-Usage
+## Usage
 
-Type node app.js -h to list all options and see an usage example. 
+Type **node app.js -h** to list all options and see an usage example. 
 
-Existing options:
+## Existing options:
 
 -i input: the mp3 file path, Required.
 
@@ -25,7 +25,7 @@ Existing options:
 
 -t template:
 
-The template file format should be in the following format. For more info, checkout ffmpeg's duration syntax page.
+### The template file format should be in the following format. For more info, checkout ffmpeg's duration syntax page.
 
 [([hh:]mm:ss[.ms...])] Chapter_name
 
@@ -44,7 +44,7 @@ A template file usually looks like this:
 
 
 ---------------------------------------------------
-@todo
+**@todo**
 
 *frendlier options*
 
